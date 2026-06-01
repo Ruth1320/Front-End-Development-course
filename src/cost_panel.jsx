@@ -37,6 +37,11 @@ export default function AddCostPanel() {
     setDescription('');
   }, [sum, currency, category, description]);
 
+
+  /*
+  Render the user interface for adding a new cost item, including form fields,
+  validation feedback, and the styled layout of the panel.
+  */
   return (
       <Panel title="Add New Cost" icon="➕">
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 16 }}>
