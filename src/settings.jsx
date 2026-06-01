@@ -39,7 +39,7 @@ Render the Settings panel, allowing the user to configure an external exchange r
 Includes an input field for the URL, a save action to fetch and store rates, and a status
 message area that displays success or error feedback based on the result of the operation.
 */
-    return (git init
+    return (
         <Panel title="Settings" icon="⚙️">
             <div style={infoBoxStyle}>
                 Provide a URL that returns exchange rates as JSON.<br />
